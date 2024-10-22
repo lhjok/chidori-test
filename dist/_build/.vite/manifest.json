@@ -1,58 +1,62 @@
 {
-  "_hardware-wallet-CKW_vMnK.js": {
-    "file": "assets/hardware-wallet-CKW_vMnK.js",
-    "name": "hardware-wallet"
-  },
-  "_useWallet-DJo9CCFT.js": {
-    "file": "assets/useWallet-DJo9CCFT.js",
-    "name": "useWallet",
+  "_axios-EfgWNwAM.js": {
+    "file": "assets/axios-EfgWNwAM.js",
+    "name": "axios",
     "imports": [
-      "_web-BU40c6be.js",
-      "_hardware-wallet-CKW_vMnK.js"
+      "_useWallet-DFdqLI7B.js",
+      "_hardware-wallet-BlaNIBuT.js"
     ]
   },
-  "_web-BU40c6be.js": {
-    "file": "assets/web-BU40c6be.js",
-    "name": "web"
+  "_hardware-wallet-BlaNIBuT.js": {
+    "file": "assets/hardware-wallet-BlaNIBuT.js",
+    "name": "hardware-wallet"
+  },
+  "_useWallet-DFdqLI7B.js": {
+    "file": "assets/useWallet-DFdqLI7B.js",
+    "name": "useWallet",
+    "imports": [
+      "_hardware-wallet-BlaNIBuT.js"
+    ]
   },
   "src/routes/[...404].tsx?pick=default&pick=$css": {
-    "file": "assets/_...404_-DROGUfUC.js",
+    "file": "assets/_...404_-DhcuSQjf.js",
     "name": "_...404_",
     "src": "src/routes/[...404].tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-BU40c6be.js"
+      "_useWallet-DFdqLI7B.js",
+      "_hardware-wallet-BlaNIBuT.js",
+      "_axios-EfgWNwAM.js"
     ]
   },
   "src/routes/index.tsx?pick=default&pick=$css": {
-    "file": "assets/index-CHyB9qoN.js",
+    "file": "assets/index-hx5pwEeP.js",
     "name": "index",
     "src": "src/routes/index.tsx?pick=default&pick=$css",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_web-BU40c6be.js",
-      "_hardware-wallet-CKW_vMnK.js",
-      "_useWallet-DJo9CCFT.js"
+      "_useWallet-DFdqLI7B.js",
+      "_hardware-wallet-BlaNIBuT.js",
+      "_axios-EfgWNwAM.js"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-_D_gQLrN.js",
+    "file": "assets/client-BigjRdda.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_useWallet-DJo9CCFT.js",
-      "_web-BU40c6be.js",
-      "_hardware-wallet-CKW_vMnK.js"
+      "_useWallet-DFdqLI7B.js",
+      "_hardware-wallet-BlaNIBuT.js"
     ],
     "dynamicImports": [
       "src/routes/[...404].tsx?pick=default&pick=$css",
       "src/routes/index.tsx?pick=default&pick=$css"
     ],
     "css": [
-      "assets/client-D1bQ-LFM.css"
+      "assets/client-CJH-CeJ5.css"
     ]
   }
 }
